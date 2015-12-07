@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Fira+Mono);
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-rendering: optimizeLegibility;
+
+	color: #111;
+
+	line-height: 1.8;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', Times, Georgia, serif;
+	font-variant-ligatures: common-ligatures;
+	font-feature-settings: "liga", "clig";
+	-moz-font-feature-settings: "liga", "clig";
+	-ms-font-feature-settings: "liga", "clig";
+	-webkit-font-feature-settings: "liga", "clig";
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width:320px;
+}
+
+.container {
+	max-width: 600px;
+	padding: 1em 0 2.33em;
+	margin: 0 auto;
+	position: relative;
+	overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Sans Pro', Times, Georgia, serif;
+	font-weight: 300;
+	margin: 0.1em 0 0.2em;
+}
+
+h2 {
+	font-size: 22px;
+	margin-bottom: 1.15em;
+}
+
+h3 {
+	border-bottom: 1px solid #ddd;
+	margin-top: 2em;
+}
+
+ul, pre, p, blockquote, label {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+code, pre {
+	font-family: 'Fira Mono', monospace;
+	font-size: 0.9em;
+}
+
+a {
+	/* http://clrs.cc/ - blue */
+	color: #0074D9;
+	text-decoration: none;
+}
+
+label > input {
+	display: block;
+	width: 100%;
+
+	font-size: inherit;
+	font-family: 'Fira Mono', monospace;
+	padding: 0.2em 0.5em;
+}
+
+button {
+	/* http://clrs.cc/ - green */
+	background: #2ECC40;
+	color: #fff;
+	font-size: 1em;
+	padding: 0.2em 0.5em;
+	border: 1px solid transparent;
+	border-radius: 3px;
+
+	cursor: hand;
+	cursor: pointer;
+	transition: 150ms box-shadow;
+}
+button:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.15);
+}
+button:active {
+	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset,
+		0px 0px 6px rgba(0, 0, 0, 0.2) inset;
+	// box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.reset {
+	font-size: 0.8em;
+	opacity: 0.8;
+}
+
+.check-legacy {
+	font-size: 0.9rem;
+}
+
+.warn {
+	/* http://clrs.cc/ - red */
+	background: rgba( 255, 65, 54, 0.4 );
+	padding: 1em;
+}
+
+.extra-detail {
+	font-size: 0.6em;
+	opacity: 0.6;
+}
+
+.user-card {
+	display: flex;
+	background: rgba(0, 0, 0, 0.04);
+	padding: 0.4em;
+}
+
+.user-card .avatar {
+	margin-right: 1em;
+}

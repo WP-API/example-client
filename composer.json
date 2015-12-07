@@ -1,0 +1,11 @@
+{
+    "require": {
+        "league/oauth1-client": "^1.6",
+        "wp-api/discovery": "dev-master"
+    },
+	"autoload": {
+		"psr-4": {
+			"WP_REST\\ExampleClient\\": "lib/"
+		}
+	}
+}
