@@ -15,7 +15,7 @@ function load_template( $template, $args = array() ) {
 }
 
 function get_requested_url() {
-	$scheme = ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] ? 'https' : 'http' );
+	$scheme = ( isset( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] ) ? 'https' : 'http';
 	$here = $scheme . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 	if ( ! empty( $_SERVER['QUERY_STRING'] ) ) {
 		// Strip the query string
