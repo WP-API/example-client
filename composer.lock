@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8db645bca2ad3f914e5fa1ca5390f804",
+    "hash": "a1b209856789d09ec43428642a679160",
     "content-hash": "e5e9d12e89e109bb160b1e7dd87afa63",
     "packages": [
         {
@@ -277,12 +277,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WP-API/discovery-php.git",
-                "reference": "3e2ed47a2fba7e613606097c66e0f278cd48afaf"
+                "reference": "a9b98d5b4c040f1f2efdd526eab2dcde2d40c270"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WP-API/discovery-php/zipball/3e2ed47a2fba7e613606097c66e0f278cd48afaf",
-                "reference": "3e2ed47a2fba7e613606097c66e0f278cd48afaf",
+                "url": "https://api.github.com/repos/WP-API/discovery-php/zipball/a9b98d5b4c040f1f2efdd526eab2dcde2d40c270",
+                "reference": "a9b98d5b4c040f1f2efdd526eab2dcde2d40c270",
                 "shasum": ""
             },
             "require": {
@@ -301,7 +301,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2015-11-18 11:08:41"
+            "time": "2015-12-08 13:07:17"
         }
     ],
     "packages-dev": [],
